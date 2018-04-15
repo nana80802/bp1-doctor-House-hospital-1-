@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db292cf7-038d-4d84-b4e0-2f6e318c5847" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/admission/src/main/java/at/refugeescode/admission/endPoint/AdmissionEndPoint.java" afterPath="$PROJECT_DIR$/admission/src/main/java/at/refugeescode/admission/endPoint/AdmissionEndPoint.java" />
+      <change beforePath="$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java" afterPath="$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/admission/target/" />
@@ -19,12 +18,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AdmissionEndPoint.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admission/src/main/java/at/refugeescode/admission/endPoint/AdmissionEndPoint.java">
+      <file leaf-file-name="DiagnoseEndPoint.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="575">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="26" />
+              <folding>
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +62,8 @@
         <option value="$PROJECT_DIR$/admission/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/diagnose/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/configuration/RestConfiguration.java" />
-        <option value="$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java" />
         <option value="$PROJECT_DIR$/admission/src/main/java/at/refugeescode/admission/endPoint/AdmissionEndPoint.java" />
+        <option value="$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java" />
       </list>
     </option>
   </component>
@@ -110,47 +112,47 @@
             <path>
               <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
               <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admission" type="462c0819:PsiDirectoryNode" />
-              <item name="endPoint" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doctor-House-hospital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doctor-House-hospital" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="diagnose" type="462c0819:PsiDirectoryNode" />
+              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -537,14 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diagnose/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -555,9 +549,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admission/src/main/java/at/refugeescode/admission/endPoint/AdmissionEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="500">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diagnose/src/main/java/at/refugeescode/diagnose/endpoint/DiagnoseEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
