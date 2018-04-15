@@ -2,6 +2,7 @@ package at.refugeescode.admission.endPoint;
 
 import at.refugeescode.admission.model.Patient;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,8 +24,8 @@ public class AdmissionEndPoint {
     }
 
     @PostMapping
-    void getPatient(@RequestBody Patient patient){
+    Patient getPatient(@RequestBody Patient patient){
         patient.setId(UUID.randomUUID().toString());
-        restTemplate.postForEntity(diagnoseUrl,patient,Void.class);
+        return restTemplate.postForEntity(diagnoseUrl, patient, Patient.class).getBody();
     }
 }
